@@ -36,19 +36,19 @@ lyra2re_hash_module = Extension('lyra2re_hash',
 										  'mixhash/sha3/skein.c'],
                                include_dirs=['mixhash/lyra2','mixhash/sha3'])
 
-# lyra2re2_hash_module = Extension('lyra2re2_hash',
-#                                sources = [
-# 										  'mixhash/lyra2/lyra2re2module.c',
-#                                           'mixhash/lyra2/Lyra2RE.c',
-# 										  'mixhash/lyra2/Sponge.c',
-# 										  'mixhash/lyra2/Lyra2.c',
-# 										  'mixhash/sha3/blake.c',
-# 										  'mixhash/sha3/groestl.c',
-# 										  'mixhash/sha3/keccak.c',
-# 										  'mixhash/sha3/cubehash.c',
-# 										  'mixhash/sha3/bmw.c',
-# 										  'mixhash/sha3/skein.c'],
-#                                include_dirs=['mixhash/lyra2','mixhash/sha3'])
+lyra2re2_hash_module = Extension('lyra2re2_hash',
+                               sources = [
+										  'mixhash/lyra2/lyra2re2module.c',
+                                          				          'mixhash/lyra2/Lyra2RE.c',
+										  'mixhash/lyra2/Sponge.c',
+										  'mixhash/lyra2/Lyra2.c',
+										  'mixhash/sha3/blake.c',
+										  'mixhash/sha3/groestl.c',
+										  'mixhash/sha3/keccak.c',
+										  'mixhash/sha3/cubehash.c',
+										  'mixhash/sha3/bmw.c',
+										  'mixhash/sha3/skein.c'],
+                               include_dirs=['mixhash/lyra2','mixhash/sha3'])
 
 neoscrypt_module = Extension('neoscrypt',
                         sources = ['mixhash/neoscrypt/module.c',
