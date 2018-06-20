@@ -83,5 +83,5 @@ setup (	name = 'mixhash',
 		keywords = ['cryptocurrency', 'coin','bitcoin', 'dash','litecoin', 'scrypt', 'neoscrypt', 'x11', 'qubit', 'skein', 'groestl'],
 		package_dir = {'mixhash': 'mixhash'},
 		py_modules = ['mixhash.__init__'],
-        ext_modules = [ lyra2re_hash_module, qubit_hash_module, keccak_hash_module, neoscrypt_module, x11_hash_module])
+        ext_modules = [ lyra2re_hash_module, lyra2re2_hash_module, qubit_hash_module, keccak_hash_module, neoscrypt_module, x11_hash_module])
 
